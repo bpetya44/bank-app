@@ -13,6 +13,12 @@ module.exports = {
       fontFamily: {
         poppins: ["Poppins", "sans-serif"],
       },
+      keyframes: {
+        wiggle: {
+          '0%, 100%': { transform: 'rotate(-3deg)' },
+          '50%': { transform: 'rotate(3deg)' },
+        }
+      }
     },
     screens: {
       xs: "480px",
@@ -22,6 +28,7 @@ module.exports = {
       lg: "1200px",
       xl: "1700px",
     },
+    
   },
   plugins: [],
 };
